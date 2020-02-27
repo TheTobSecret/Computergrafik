@@ -8,25 +8,31 @@ von Tobias Zoll
 
 - Plattform: OpenGl
 - Programmiersprache: C++
-- IDE: Visual Studio Code
+- IDE: Visual Studio Code and g++ Compiler
 - Tools:
-  - GLFW
-  - GLEW
-  - GLAD
+  - GLUT
 
 ### Zusammenfassung über mein Projekt
 
-Das Ziel des Projektes soll es sein, eine Anwendung zu erhalten, die einem das Sonnensystem anzeigt und mein die einzelnen Planeten mit ihren Daten auswählen kann und in vergrößerter Ansicht begutachten kann. Außerdem wird es die Möglichkeit geben die Entfernung zwischen Planeten zu sehen. Die ganze Anwendung soll die Planeten in einer 3-Dimensionalen Darstellung anzeigen.
+Das Ziel der Anwendung war es in einer Umgebung ein Spotlight zu erstellen, welches nur einen bestimmten Bereich ausleuchtet. 
+Eine weitere Herrausforderung war es, das sich das Spotlight in der Umgebung bewegt (schaukelt).
 
-### Instalation
+### Installation
 
-#### Set Up GlAD
+#### Hinweis: Dieses Projekt wurde unter Ubuntu entwickelt. Die Funktionalität des Programms und der dazugehörigen Scripte, ist nur unter Linux getestet worden.
 
-1. Go to https://glad.dav1d.de/
-2. Select Language C/C++
-3. Set Specification to OpenGL
-4. Set API to gl = Version 4.3
-5. Disable all Options
-6. Download the .zip File
-7. Unzip the File and move the Directories inside the include/ to /usr/include/
-8. Move the File from src/ to /usr/src/
+Im Ordner "build/" liegt eine ausführbare .sh Datei, die das kompilierte Programm enthält.
+
+Falls es nötig wird, das Programm erneut zu kompilieren, so liegt im Hauptverzeichnis ein compile.sh Bash-Script, mit dem der Quellcode wieder neu kompiliert werden kann.
+
+### Quellen / Literatur
+
+	
+Jetzt lerne ich OpenGL : Der einfache Einstieg in die Schnittstellenprogrammierung
+Autor: Lorenz Burggraf
+Verlag: Markt + Technik Verlag, 2003
+
+
+https://www.opengl.org/resources/libraries/glut/spec3/spec3.html
+
+http://docs.gl/
